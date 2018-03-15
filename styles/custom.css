@@ -1,0 +1,13 @@
+﻿.pageapp-login-input .field-title {color:#fff;opacity:0.6;font-weight:300;text-align:center}
+.page-fullscreen{overflow-y:auto;}
+.pageapp-login .pageapp-login-logo{padding-top:80px;padding-bottom:30px;}
+.overlay.apply{position: sticky; height: 100%; }
+.page-fullscreen-content {transition:all linear 0.5s;top:-45px;margin-top:auto;left:50%;}
+.footer .copyright-text {padding-top:0;border-top:0;}
+.footer .footer-text {padding-bottom:10px;margin-bottom:0;border-bottom:0;}
+.heading-strip i{line-height:75px;}
+.heading-strip {padding-bottom:10px;margin-bottom:-1px;}
+.content{margin-bottom:-1px;}
+.user-list-4 { padding-top: 15px; margin-bottom: auto; padding-right:20px;padding-left:20px;}
+
+.content{padding-left:0;padding-right:0}
