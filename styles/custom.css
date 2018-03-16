@@ -7,8 +7,14 @@
 .footer .footer-text {padding-bottom:10px;margin-bottom:0;border-bottom:0;}
 .heading-strip i{line-height:75px;}
 .heading-strip {padding-bottom:10px;margin-bottom:0;}
-.content{margin-bottom:186px;}
+.content{margin-bottom:0;}
 .user-list-4 { padding-top: 15px; margin-bottom: auto; padding-right:20px;padding-left:20px;}
 .content{padding-left:0;padding-right:0}
 .footer{position: fixed; bottom: 0; left: 0; right: 0;}
 .page-content-scroll{overflow-x:hidden}
+@media (max-width: 360px) { .pageapp-login-logo { display: block; } }
+.heading-block{margin-bottom:unset}
+.page-login-input textarea{ border: 1px solid #eaeaea; padding: 10px; width: 100%;border-radius: 3px !important;}
+.content.notices{padding:20px;}
+.speach-left{margin-left:10px;}
+.speach-right{margin-right:10px;}

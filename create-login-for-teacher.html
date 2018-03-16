@@ -1,0 +1,113 @@
+﻿<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <title>sCool Buddy</title>
+    <link rel="stylesheet" type="text/css" href="styles/style.css">
+    <link rel="stylesheet" type="text/css" href="styles/skin.css">
+    <link rel="stylesheet" type="text/css" href="styles/framework.css">
+    <link rel="stylesheet" type="text/css" href="styles/ionicons.min.css">
+    <link rel="stylesheet" type="text/css" href="styles/custom.css">
+    <script type="text/javascript" src="scripts/jquery.js"></script>
+    <script type="text/javascript" src="scripts/plugins.js"></script>
+    <script type="text/javascript" src="scripts/custom.js"></script>
+</head>
+<body>
+    <div id="page-transitions">
+        <div class="sidebars sidebars-light">
+            <div class="sidebar sidebar-left">
+                <div class="sidebar-header sidebar-header-image bg-2">
+                    <div class="overlay dark-overlay"></div>
+                    <div class="sidebar-socials">
+                        <a class="close-sidebar" href="#"><i class="ion-android-close"></i></a>
+                        <div class="clear"></div>
+                    </div>
+                    <a href="index.html" class="sidebar-logo">
+                        <strong>Inspiring Academic Excellence</strong>
+                    </a>
+                </div>
+                <div class="menu-options icon-background no-submenu-numbers sidebar-menu">
+                    <em class="menu-divider">Navigation</em>
+                    <a href="index.html"><i class="icon-bg bg-night-dark ion-ios-star"></i><span>Welcome</span><i class="ion-record"></i></a>
+                    <a class="active-item" data-sub="sidebar-create-login" href="#"><i class="icon-bg bg-green-dark ion-key"></i><span>Create Login</span><strong class="plushide-animated"></strong></a>
+                    <div class="submenu" id="sidebar-create-login">
+                        <a class="active-item" href="create-login-for-teacher.html"><span>For Teacher</span></a>
+                        <a href="create-login-for-student.html"><span>For Student</span></a>
+                        <a href="create-login-for-guardian.html"><span>For Guardian</span></a>
+                        <a href="create-login-for-accountant.html"><span>For Accountant</span></a>
+                    </div>
+
+                    <a data-sub="sidebar-complains" href="#"><i class="icon-bg bg-blue-dark ion-ios-list-outline"></i><span>Complains</span><strong class="plushide-animated"></strong></a>
+                    <div class="submenu" id="sidebar-complains">
+                        <a href="complains-forme.html"><span>For Me</span></a>
+                        <a href="complains-forothers.html"><span>For Others</span></a>
+                    </div>
+                    <a data-sub="sidebar-notice" href="#"><i class="icon-bg bg-orange-dark ion-ios-paper-outline"></i><span>Post Notice</span><strong class="plushide-animated"></strong></a>
+                    <div class="submenu" id="sidebar-notice">
+                        <a href="post-notice-for-teachers.html"><span>For Teachers</span></a>
+                        <a href="post-notice-for-students.html"><span>For Students</span></a>
+                        <a href="post-notice-for-guardians.html"><span>For Guardians</span></a>
+                        <a href="post-notice-for-accountants.html"><span>For Accountants</span></a>
+                    </div>
+                    <a href="index.html"><i class="icon-bg bg-orange-light ion-edit"></i><span>Homework</span><i class="ion-record"></i></a>
+                    <a href="index.html"><i class="icon-bg bg-blue-dark ion-ios-analytics"></i><span>Assignment</span><i class="ion-record"></i></a>
+                    <a href="index.html"><i class="icon-bg bg-green-dark ion-gear-a"></i><span>Results</span><i class="ion-record"></i></a>
+                    <a href="chats.html"><i class="icon-bg bg-night-dark ion-heart"></i><span>Chats</span><i class="ion-record"></i></a>
+                    <a href="#" id="logoutapp" class="close-sidebar"><i class="icon-bg bg-red-light ion-android-close"></i><span>Logout</span><i class="ion-record"></i></a>
+                    <em class="menu-divider">Copyright <u class="copyright-year"></u>. All rights reserved</em>
+                </div>
+            </div>
+        </div>
+        <div class="header header-logo-center header-dark">
+            <a href="#" class="header-icon header-icon-1 hamburger-animated open-sidebar-left"></a>
+            <a href="index.html" class="header-logo"></a>
+        </div>
+        <div id="page-content" class="page-content">
+            <div id="page-content-scroll">
+                <div class="page-fullscreen vertical-bg-0">
+                    <div class="page-fullscreen-content">
+                        <div class="pageapp-login">
+                            <a href="#" class="pageapp-login-logo">
+                                <img src="images/preload-logo.png" alt="img">
+                            </a>
+                            <div class="pageapp-login-input">
+                                <div class="field-title">Teacher Credentials</div>
+                            </div>
+                            <div class="pageapp-login-input">
+                                <i class="login-icon ion-chevron-right"></i>
+                                <input type="text" value="Subject ID" onfocus="if (this.value=='Subject ID') this.value = ''" onblur="if (this.value=='') this.value = 'Subject ID'">
+                            </div>
+                            <div class="pageapp-login-input">
+                                <i class="login-icon ion-chevron-right"></i>
+                                <input type="text" value="Subject Name" onfocus="if (this.value=='Subject Name') this.value = ''" onblur="if (this.value=='') this.value = 'Subject Name'">
+                            </div>
+                            <div class="pageapp-login-input">
+                                <i class="login-icon ion-chevron-right"></i>
+                                <input type="text" value="Teacher ID" onfocus="if (this.value=='Teacher ID') this.value = ''" onblur="if (this.value=='') this.value = 'Teacher ID'">
+                            </div>
+                            <div class="pageapp-login-input">
+                                <i class="login-icon ion-chevron-right"></i>
+                                <input type="text" value="Teacher Name" onfocus="if (this.value=='Teacher Name') this.value = ''" onblur="if (this.value=='') this.value = 'Teacher Name'">
+                            </div>
+                            <div class="pageapp-login-input">
+                                <i class="login-icon ion-person"></i>
+                                <input type="text" value="Teacher Email" onfocus="if (this.value=='Teacher Email') this.value = ''" onblur="if (this.value=='') this.value = 'Teacher Email'">
+                            </div>
+                            <div class="pageapp-login-input">
+                                <i class="login-icon ion-locked"></i>
+                                <input type="password" value="xXxXxXxX" onfocus="if (this.value=='xXxXxXxX') this.value = ''" onblur="if (this.value=='') this.value = 'xXxXxXxX'">
+                            </div>
+                            <a href="#" class="button button-green button-icon button-full half-top full-bottom"><i class="ion-log-in"></i>Create</a>
+                        </div>
+                    </div>
+                    <div class="overlay dark-overlay apply"></div>
+                    <script type="text/javascript" src="scripts/customrevised.js"></script>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
